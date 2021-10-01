@@ -1,0 +1,17 @@
+div.fc.fc-media-screen.fc-direction-ltr.fc-theme-bootstrap {
+    height: 100vh;
+}
+
+div.fc-header-toolbar.fc-toolbar {
+    margin-top: 1rem;
+}
+
+.App {
+    height: 100vh;
+}
+
+@media only screen and (max-width: 480px) {
+    .fc-toolbar {
+        flex-direction: column;
+    }
+}
