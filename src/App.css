@@ -10,6 +10,10 @@ div.fc-header-toolbar.fc-toolbar {
     height: 100vh;
 }
 
+input, button {
+    outline: none;
+}
+
 @media only screen and (max-width: 480px) {
     .fc-toolbar {
         flex-direction: column;

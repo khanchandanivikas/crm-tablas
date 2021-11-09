@@ -11,6 +11,7 @@
 
 .overlay {
     background: rgba(49, 49, 49, 0.8);
+    z-index: 1;
 }
 
 .form-container {
@@ -36,7 +37,7 @@
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
-    height: 400px;
+    height: 420px;
     width: 30%;
     background-color: #fff;
     padding: 1rem;
@@ -65,4 +66,22 @@ input {
 
 .buscar:hover {
     background-color: rgb(12, 92, 212);
+}
+
+@media only screen and (max-width: 1024px) {
+    .formulario {
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .formulario {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 481px) {
+    .formulario {
+        width: 80%;
+    }
 }
