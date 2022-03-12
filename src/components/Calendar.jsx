@@ -43,7 +43,7 @@ const Calendar = (props) => {
         eventColor="red"
         customButtons={{
           new: {
-            text: "nuevo",
+            text: "New",
             click: () => mostrarModalNuevoEvento(),
           },
         }}
